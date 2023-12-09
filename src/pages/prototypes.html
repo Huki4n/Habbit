@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Habbit</title>
+  <!--Нужно будет сделать единый файл для всех свойств-->
+  <link rel="stylesheet" type = "text/css" href="../css/reset.css">
+  <link rel="stylesheet" type = "text/css" href="../scss/main.css">
+  <link rel="stylesheet" type = "text/css" href="../scss/header.css">
+  <link rel="stylesheet" type = "text/css" href="../scss/config.css">
+  <link rel="stylesheet" type = "text/css" href="../scss/navigation.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class = "page-header header">
+    <div class="header__body">
+      <button class="header__theme-gear">
+        <img class = "header__theme-gear__image" src = "../../public/assets/image/svg/header_img/theme_gear.svg" alt = "Theme button">
+      </button>
+      <div class="header__logo">
+        <img src = "../../public/assets/image/svg/header_img/habbit_logo.svg" class = "header__logo__image">
+      </div>
+      <div class="header__profile-info">
+        <a href="" class="header__mail">
+          <img src = "../../public/assets/image/svg/header_img/mail.svg">
+        </a>
+        <div class="header__auth">
+          <button class="header__log-in header__auth__button">Log in</button>
+          <button class="header__sign-up header__auth__button">Sign up</button>
+        </div>
+        <a href="" class="header__profile"></a>
+      </div>
+    </div>
+    <div class="header__buttom">
+      <span class = "header__slogan">explore your creativity</span>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class = "navigation">
+      <ul class = "navigation__pages">
+        <li class="navigation__page">
+          <a href = "#" class = "navigation__text navigation__text--active">For You</a>
+        </li>
+        <li class="navigation__page">
+          <a href = "" class = "navigation__text">Discover</a>
+        </li>
+        <li class="navigation__page">
+          <a href = "" class = "navigation__text">Stellar</a>
+        </li>
+      </ul>
+      <div class="navigation__search-bar">
+        <div class="navigation__search search">
+          <a href = "" class="search__loupe-icon">
+            <img src = "../../public/assets/image/svg/navigation/loupe.svg">
+          </a>
+          <form class="search__form">
+            <label for = "search">
+              <input id = "search" type="search" name="search" placeholder="Search the creative world at work" class="search__input">
+              <!--              <div class = "search__close-icon">-->
+              <!--                <img src = "../public/assets/image/svg/navigation/close.svg">-->
+              <!--              </div>-->
+            </label>
+          </form>
+          <div class="search__tips search__tips--hidden">
+          </div>
+        </div>
+        <nav class="navigation__filters filters">
+          <ul class="filters__list">
+            <li class="filters__item">
+              <a href="../index.html" class="filters__link">Projects</a>
+            </li>
+            <li class="filters__item">
+              <a href="images.html" class="filters__link">Images</a>
+            </li>
+            <li class="filters__item">
+              <a href="#" class="filters__link filters__link--active">Prototypes</a>
+            </li>
+            <li class="filters__item">
+              <a href="people.html" class="filters__link">People</a>
+            </li>
+            <li class="filters__item">
+              <a href="moodboards.html" class="filters__link">Moodboards</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="projects__content">
+        <ul class="projects__list">
+          <li class="projects__item project">
+            <picture>
+              <img src="../../public/assets/image/png/project/prototypes/block.png" alt="Превью проекта" class="project__img">
+            </picture>
+            <div class="project__info">
+              <div class="project__likes">
+                <button class = "project__likes__button">
+                </button>
+                <span class="project__likes__count">51</span>
+              </div>
+              <div class="project__views">
+                <button class = "project__views__button">
+                  <img src="../public/assets/image/svg/projects/view.svg"  class="project__views__img">
+                </button>
+                <span class="project__views__count">552</span>
+              </div>
+              <div class="project__favorites">
+                <button class = "project__favorites__button">
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</div>
+<script src="../scripts/index.js"></script>
+</body>
+</html>

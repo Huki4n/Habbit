@@ -4,28 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5731304d-836a-4405-9aa7-d69a35b356aa" name="Changes" comment="directory structure new">
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/header_img/habbit_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/header_img/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/header_img/theme_gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/navigation/close-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/navigation/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/navigation/loupe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/navigation.scss" afterDir="false" />
+    <list default="true" id="5731304d-836a-4405-9aa7-d69a35b356aa" name="Changes" comment="first try site">
+      <change afterPath="$PROJECT_DIR$/public/assets/image/png/project/projects/block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/projects/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/image/svg/projects/view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/moodboards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/people.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/prototypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/heeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/text.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/image/image.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/heeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/image/svg/projects/like.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -77,35 +81,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;in__progress&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/r0dio/WebstormProjects/Habbit/src/css&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "in__progress",
+    "last_opened_file_path": "C:/Users/r0dio/WebstormProjects/Habbit/src/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\r0dio\WebstormProjects\Habbit\src\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\src\components" />
+      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\png\project\projects" />
+      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\png\project" />
+      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\svg\projects" />
       <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\svg\navigation" />
-      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\svg\header_img" />
-      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image\png\header_img" />
-      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\image" />
-      <recent name="C:\Users\r0dio\WebstormProjects\Habbit\public\assets\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -127,7 +132,9 @@
       <workItem from="1701455228933" duration="13492000" />
       <workItem from="1701511251013" duration="12664000" />
       <workItem from="1701814574583" duration="1000" />
-      <workItem from="1701888719918" duration="6100000" />
+      <workItem from="1701888719918" duration="11731000" />
+      <workItem from="1702071107071" duration="32000" />
+      <workItem from="1702117735623" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="directory structure">
       <option name="closed" value="true" />
@@ -153,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700918607709</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first try site">
+      <option name="closed" value="true" />
+      <created>1701895203410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701895203410</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +178,7 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="directory structure" />
     <MESSAGE value="directory structure new" />
-    <option name="LAST_COMMIT_MESSAGE" value="directory structure new" />
+    <MESSAGE value="first try site" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try site" />
   </component>
 </project>

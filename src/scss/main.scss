@@ -7,4 +7,64 @@ body{
   margin: 0 54px;
 }
 
+.projects{
+  margin-top: 6rem;
+
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    row-gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.project{
+  &__info{
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 50px 50px 1fr;
+    align-items: flex-end;
+  }
+  [class*="__count"]{
+    margin-top: 2px;
+  }
+  &__likes {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-right: 0.5rem;
+
+    &__button{
+      width: 1rem;
+      height: 1rem;
+      background-image: url(../../public/assets/image/svg/projects/like.svg);
+      background-color: transparent;
+    }
+    &__button--active{
+      background: green;
+    }
+  }
+  &__views{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    &__button{
+      background-color: transparent;
+    }
+  }
+  &__favorites{
+    justify-self: flex-end;
+
+    &__button{
+      width: 25px;
+      height: 25px;
+      background-image: url(../../public/assets/image/svg/projects/star.svg);
+      background-color: transparent;
+    }
+    &__button--active{
+      background: red;
+    }
+  }
+}
+
 
